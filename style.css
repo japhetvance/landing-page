@@ -65,6 +65,16 @@ body {
     width: 150px;
 }
 
+.body.three {
+    justify-content: center;
+    align-items: center;
+}
+
+.body.three div .author {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .header,
 .footer {
     height: 10vh;
