@@ -7,7 +7,6 @@ body {
 .body {
     display: flex;
     flex: 1;
-    color: red;
     min-height: 20vh;
 }
 
@@ -75,6 +74,21 @@ body {
     justify-content: flex-end;
 }
 
+.body.four {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body.four .layout {
+    box-sizing: border-box;
+    padding: 32px;
+    background-color: blue;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
 .header,
 .footer {
     height: 10vh;
