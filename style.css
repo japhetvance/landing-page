@@ -24,6 +24,20 @@ body {
     }
 }
 
+.body.one {
+    justify-content: center;
+    padding: 32px;
+    align-items: center;
+}
+
+.body.one .left {
+}
+
+.body.one img {
+    width: 500px;
+    height: 150px;
+}
+
 .header,
 .footer {
     height: 10vh;
