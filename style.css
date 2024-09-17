@@ -13,7 +13,10 @@ body {
     display: flex;
     flex: 1;
     min-height: 20vh;
+    box-sizing: border-box;
 }
+
+/* Header */
 
 .header {
     justify-content: space-around;
@@ -36,6 +39,8 @@ body {
         font-size: 12px;
     }
 }
+
+/* Body One */
 
 .body.one {
     justify-content: center;
@@ -68,7 +73,7 @@ body {
     padding: 8px 16px;
     color: white;
     font-weight: 400;
-    border-radius: 25px;
+    border-radius: 12px;
 }
 
 .body.one img {
@@ -76,6 +81,8 @@ body {
     height: 150px;
     border: white 2px solid;
 }
+
+/* Body Two */
 
 .body.two {
     justify-content: center;
@@ -88,6 +95,11 @@ body {
 .body.two .container {
     display: flex;  
     align-items: center;
+}
+
+.body.two .title {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .body.two .container .card {
@@ -103,14 +115,39 @@ body {
     width: 150px;
 }
 
+.body.two .container .card p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #8c8c8d;
+}
+
+/* Body Three */
+
 .body.three {
     justify-content: center;
     align-items: center;
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+
+.body.three div {
+    width: 55%;
+}
+
+.body.three div p {
+    font-size: 38px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+    padding: 0;
 }
 
 .body.three div .author {
     display: flex;
     justify-content: flex-end;
+    font-size: 20px;
 }
 
 .body.four {
@@ -124,9 +161,38 @@ body {
     box-sizing: border-box;
     padding: 32px;
     background-color: blue;
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: space-around;
+}
+
+.body.four .layout div {
+    color: white;
+}
+
+.body.four .layout div .title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.body.four .layout div p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+}
+
+.body.four .layout button {
+    background-color: transparent;
+    border: white 2px solid;
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-weight: 400;
+    color: white;
+    font-size: 700;
 }
 
 .footer {
